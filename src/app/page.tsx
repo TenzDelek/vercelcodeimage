@@ -4,25 +4,19 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import { atomOneDarkReasonable } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 import { toPng } from 'html-to-image';
 
-interface CodeSnippetProps {
-  initialCode?: string;
-  language?: string;
-}
 
-const Home: React.FC<CodeSnippetProps> = ({ 
-  initialCode = `import CodeSnippet from "@/Components/CodeSnippet";
-
-export default function Home() {
-  return (
-    <div className=" h-screen w-full">
-        <CodeSnippet />
-    </div>
-  );
-}`, 
-  language = 'typescript' 
-}) => {
+const Home = () => {
+   const initialCode = `import CodeSnippet from "@/Components/CodeSnippet";
+  
+  export default function Home() {
+    return (
+      <div className=" h-screen w-full">
+          <CodeSnippet />
+      </div>
+    );
+  }`
+  const language="typescript"
   const [code, setCode] = useState(initialCode);
-
   const handleExportPNG = async () => {
     const element = document.getElementById('code-snippet-container');
     
