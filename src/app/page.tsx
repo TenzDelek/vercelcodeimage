@@ -66,8 +66,8 @@ const Home = () => {
         {/* Top section with the plus */}
         <div className='flex '>
           <div className=' border-[#191919] border-[0.1px] border-l-0 border-t-0 h-16 w-16 flex items-center justify-center'/>
-          <span className= " absolute top-[45px] left-[53px] text-[#515257] text-base">___</span>
-          <span className= " absolute top-[50px] left-[61px] text-[#515257] text-lg">|</span>
+          <span className= " absolute top-[44px] left-[54.5px] text-[#515257] text-base">__</span>
+          <span className= " absolute top-[49px] left-[61.5px] text-[#515257] text-lg">|</span>
           
 
           <div className=' border-[#191919] border-[0.1px] border-l-0  border-t-0 h-16 flex-grow'/>
@@ -96,8 +96,8 @@ const Home = () => {
         {/* Bottom section with the plus */}
         <div className='flex relative'>
           <div className=' border-[#191919] border-[0.1px] border-t-0 border-r-0 border-l-0 border-b-0 h-16 w-16'/>
-          <span className= " absolute bottom-[58px] right-[53px] text-[#515257] text-base">___</span>
-          <span className= " absolute bottom-[49px] right-[61px] text-[#515257] text-lg">|</span>
+          <span className= " absolute bottom-[60.2px] right-[56px] text-[#515257] text-base">__</span>
+          <span className= " absolute bottom-[51.5px] right-[62px] text-[#515257] text-lg">|</span>
           <div className=' border-[#191919] border-[0.1px] border-b-0 border-t-0 h-16 flex-grow'/>
           <div className='  h-16 w-16 flex items-center justify-center'/>
         </div>
