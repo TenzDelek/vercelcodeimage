@@ -43,7 +43,8 @@ const Home = () => {
     }
   };
   return (
-    <div className="flex h-screen w-full p-4 justify-center items-center">
+    <div>
+ <div className="flex h-screen max-md:hidden w-full p-4 justify-center items-center">
     <div className='flex-1 w-full mr-6 p-5 items-start justify-start'>
       <p className='text-xl font-bold'>Write your Snippet here</p>
       <textarea
@@ -112,7 +113,11 @@ const Home = () => {
       </div>
     </div>
   </div>
-  
+  <div className='flex items-center justify-center h-screen w-full md:hidden'>
+<p>NOT USEABLE ON SMALLER SCREEN</p>
+  </div>
+    </div>
+   
   );
 };
 
