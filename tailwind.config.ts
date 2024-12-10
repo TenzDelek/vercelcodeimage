@@ -9,9 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'editor-bg': '#1E1E1E',
       },
+      boxShadow: {
+        'snippet': '0 8px 30px rgba(0, 0, 0, 0.12)',
+      }
     },
   },
   plugins: [],
